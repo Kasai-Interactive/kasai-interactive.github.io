@@ -1,1 +1,439 @@
-<p>penis</p>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kasai Interactive</title>
+
+    <style>
+
+       @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
+
+
+
+        body {
+
+            font-family: 'VT323', monospace;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #000;
+
+            color: #00f;
+
+        }
+
+
+
+        header {
+
+            background-color: #000;
+
+            color: #00f;
+
+            padding: 20px;
+
+            text-align: center;
+
+            animation: fadeInDown 1s ease;
+
+        }
+
+
+
+        @keyframes fadeInDown {
+
+            0% {
+
+                opacity: 0;
+
+                transform: translateY(-50px);
+
+            }
+
+            100% {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        header h1 {
+
+            margin: 0;
+
+            font-size: 40px;
+
+        }
+
+
+
+        nav ul {
+
+            list-style-type: none;
+
+            padding: 0;
+
+        }
+
+
+
+        nav ul li {
+
+            display: inline;
+
+            margin-right: 20px;
+
+        }
+
+
+
+        nav ul li a {
+
+            color: #00f;
+
+            text-decoration: none;
+
+            transition: color 0.3s ease;
+
+        }
+
+
+
+        nav ul li a:hover {
+
+            color: #0ff;
+
+        }
+
+
+
+        section {
+
+            padding: 50px 20px;
+
+        }
+
+
+
+        section h2 {
+
+            text-align: center;
+
+            font-size: 36px;
+
+            animation: fadeIn 1s ease;
+
+        }
+
+
+
+        @keyframes fadeIn {
+
+            0% {
+
+                opacity: 0;
+
+            }
+
+            100% {
+
+                opacity: 1;
+
+            }
+
+        }
+
+
+
+        .game {
+
+            text-align: center;
+
+            margin-bottom: 30px;
+
+            animation: slideIn 1s ease;
+
+        }
+
+
+
+        @keyframes slideIn {
+
+            0% {
+
+                opacity: 0;
+
+                transform: translateY(50px);
+
+            }
+
+            100% {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        .game img {
+
+            width: 200px;
+
+            height: auto;
+
+            border: 5px solid #00f;
+
+            border-radius: 10px;
+
+            box-shadow: 0px 0px 20px 0px #00f;
+
+            animation: fadeIn 2s ease;
+
+        }
+
+
+
+        a.button {
+
+            background-color: #00f;
+
+            color: #fff;
+
+            padding: 10px 20px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            font-size: 16px;
+
+            transition: background-color 0.3s ease;
+
+            box-shadow: 0px 0px 20px 0px #00f;
+
+
+
+        }
+
+
+
+        a.button:hover {
+
+            background-color: #0ff;
+
+            box-shadow: 0px 0px 10px 0px #00f;
+
+
+
+        }
+
+
+
+        footer {
+
+            background-color: #000;
+
+            color: #00f;
+
+            text-align: center;
+
+            padding: 20px;
+
+            animation: fadeInUp 3s ease;
+
+        }
+
+
+
+        @keyframes fadeInUp {
+
+            0% {
+
+                opacity: 0;
+
+                transform: translateY(50px);
+
+            }
+
+            100% {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        footer section {
+
+            max-width: 800px;
+
+            margin: 0 auto;
+
+        }
+
+
+
+        footer ul {
+
+            list-style-type: none;
+
+            padding: 0;
+
+            box-shadow: 0px 0px 20px 0px #00f;
+
+        }
+
+
+
+        footer ul li {
+
+            margin-bottom: 10px;
+
+
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Kasai Interactive</h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#games">Games</a></li>
+
+                <li><a href="#about">About us</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    
+
+    <section id="games">
+
+        <h2>Games</h2>
+
+        <div class="game">
+
+            <img src="error.png" alt="Game">
+
+			<br>
+
+			<a href="" class="button">Play Now</a>
+
+        </div>
+
+        <!-- Add more games here -->
+
+    </section>
+
+    
+
+    <section id="about">
+
+        <h2>About us</h2>
+
+        <p>Placeholder text for about us section.</p>
+
+    </section>
+
+    
+
+    <footer>
+
+        <section>
+
+            <h2>Discontinued Games</h2>
+
+            <ul>
+
+			        <div class="game">
+
+					<h1>Shoot Power</h1>
+
+            <img src="game1.png" alt="Game 1">
+
+			<br>
+
+			<a href="https://games.gdevelop-app.com/game-b66eaed6-526e-4ceb-a7e2-2ed0d1fe40aa/index.html" class="button">Play Now</a>
+
+					<h4>Last updated xx.02.2023</h4>
+
+        </div>
+
+					        <div class="game">
+
+					<h1>Dont touch the Creeper</h1>
+
+            <img src="game2.png" alt="Game 2">
+
+			<br>
+
+			<a href="https://games.gdevelop-app.com/game-0da94a81-243d-439d-aa84-ec8c8cbe1ec2/index.html" class="button">Play Now</a>
+
+							<h4>Last updated xx.xx.2022</h4>
+
+        </div>
+
+							        <div class="game">
+
+					<h1>UNTITLED_PROJECT</h1>
+
+            <img src="error.png" alt="Error loading IMAGE">
+
+			<br>
+
+			<a href="https://games.gdevelop-app.com/game-81c1072c-8664-48fb-97c3-7d663f935e7f/index.html" class="button">Play Now</a>
+
+									<h4>Last updated xx.07.2022</h4>
+
+        </div>
+
+                <li>Game 3</li>
+
+                <li>Game 4</li>
+
+                <!-- Add more discontinued games here -->
+
+            </ul>
+
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
